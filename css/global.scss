@@ -6,8 +6,9 @@
 
 
 
-body{background-color:#CFD4D4;}
-.canvas{margin:40px;}
+body{background-color:#CFD4D4;
+margin:0;}
+.Acanvas{margin:40px;}
 
 .border{
 position: fixed;
@@ -248,4 +249,35 @@ button:hover,
 #menuToggle:hover {
     color: black;
 }
+
+div.band .columns {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.band{
+	min-width:100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+
+    
+}
+header.band {
+	background-image:url('../../images/Building.jpg');
+	background-size: 100%;
+	-webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+	color: white;
+	text-align: center;
+	padding: 30% 0 25% 0;
+	z-index:2;
+}
+.large-12 columns one{padding-top:140px;}
+.button{background-color:#F70905;}
 
