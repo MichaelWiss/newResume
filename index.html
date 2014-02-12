@@ -13,6 +13,26 @@
     <div class= "border border-left"></div>
     <div class= "border border-right"></div>
     <div class= "border border-bottom"></div>
+
+
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <br>
+            <i class="menu-close">&#10006;</i>
+            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#about" class="smoothScroll">About</a>
+            <a href="#portfolio" class="smoothScroll">Portfolio</a>     
+            <a href="#services" class="smoothScroll">Services</a>
+            <a href="http://andrewshen.net/blog">Blog</a>
+            <a href="#contact" class="smoothScroll">Contact</a>
+            <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-archive"></i></a>
+            <a href="mailto:michael.wiss@gmail.com"><i class="fa fa-inbox"></i></a>
+        </div>
+        <!-- Menu button -->
+        <div id="menuToggle">&#9776;</div>   
+    </nav>
     
 
     <div class="row">
@@ -168,5 +188,19 @@
     <script>
       $(document).foundation();
     </script>
+<script>
+    (function(){
+
+      // Menu settings
+      $('#menuToggle, .menu-close').on('click', function(){
+        $('#menuToggle').toggleClass('active');
+        
+        $('#theMenu').toggleClass('menu-open');
+      });
+
+
+})(jQuery)
+
+</script>
   </body>
 </html>
