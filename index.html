@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/build/global.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -23,23 +24,19 @@
             <i class="menu-close">&#10006;</i>
             <a href="#home" class="smoothScroll">Home</a>
             <a href="#about" class="smoothScroll">About</a>
-            <a href="#portfolio" class="smoothScroll">Portfolio</a>     
-            <a href="#services" class="smoothScroll">Services</a>
-            <a href="http://andrewshen.net/blog">Blog</a>
+            <a href="#portfolio" class="smoothScroll">Portfolio</a>    <a href="#skills" class="smoothScroll">Skills</a>
             <a href="#contact" class="smoothScroll">Contact</a>
-            <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-archive"></i></a>
             <a href="mailto:michael.wiss@gmail.com"><i class="fa fa-inbox"></i></a>
         </div>
         <!-- Menu button -->
         <div id="menuToggle">&#9776;</div>   
     </nav>
 
-   <header class="band" data-0="transform:scale(1.0);" data-180="transform:scale(1.5);"  id="home">
+   <header class="band" data-0="transform:scale(1.0);" data-180="transform:scale(1.4);"  id="home">
 
     <div class="row">
       <div class="small-12 columns" data-0="opacity: 1; transform:scale(1.1,1.1);" data-180="opacity: 0; transform:scale(2.5,2.5);">
-        <h1>MICHAEL WISS NYC</h1>
+        <h1 class="wow fadeInDownBig">MICHAEL WISS NYC</h1>
         <a href="http://michaelrwiss.com" class="button outline-outward"  target="_blank">My Portfolio</a>
         
       </div>
@@ -55,10 +52,10 @@
         <h1>Welcome to Foundation</h1>
       </div>
     </div>-->
-    
-    <div class="row">
-      <div class="large-12 columns one">
-      	<div class="panel">
+    <div class="wow fadeInDown">
+    <div class="wow fadeinDown row ">
+      <div class="large-12 columns one wow fadeinDown">
+      	<div class="wow fadeinDown panel">
 	        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
 	        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
 	        <p>Once you've exhausted the fun in this document, you should check out:</p>
@@ -75,6 +72,8 @@
 					</div>
       	</div>
       </div>
+    </div>
+
     </div>
 
     <div class="row">
@@ -200,13 +199,17 @@
     </div>
 
     </div>
+    
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    
     <script src="js/build/global.min.js"></script>
-    <script>
+    <script src="js/vendor/wow.min.js"></script>
+
+    <script type="text/javascript">
       $(document).foundation();
     </script>
-<script>
+
+     <script>
     (function(){
 
       // Menu settings
@@ -224,5 +227,10 @@
 <script type="text/javascript">
     var s = skrollr.init();
     </script>
+
+<script type="text/javascript">
+ new WOW().init();
+</script>
+
   </body>
 </html>

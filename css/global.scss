@@ -2,6 +2,7 @@
 
 @import "../foundation.min.css";
 @import "../normalize.css";
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
 
@@ -74,24 +75,7 @@ left: 0;}
 	height: 100%;
 }
 
-.menu h1.logo a {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	font-weight: 800;
-	line-height: 40px;
-	text-transform: uppercase;
-	color: #DEF1E5;
-	margin-top: 20px;
-}
 
-.menu h1.logo a:hover {
-	color: #227799;
-}
-
-.menu img.logo {
-	margin: 20px 0;
-	max-width: 160px;
-}
 
 .menu a {
     text-transform: uppercase;
@@ -132,7 +116,7 @@ left: 0;}
 	height: 40px;
 	line-height: 40px;
 	top: 20px;
-	right: 35px;
+	right: 55px;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
@@ -151,30 +135,7 @@ left: 0;}
 
 /* Push the body after clicking the menu button */
 
-button,
-.button {
-  background: #76C4D4;
-  color: #fff;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 10px 30px;
-  display: inline-block;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  transition: background 150ms linear;
-  -webkit-transition: background 150ms linear;
-  -moz-transition: background 150ms linear;
-  -o-transition: background 150ms linear;
-  -ms-transition: background 150ms linear; 
-}
 
-button:hover,
-.button:hover {
-    background: #DEF1E5;
-    color: #76C4D4;
-}
 
 .body-push {
 	overflow-x: hidden;
@@ -199,35 +160,15 @@ button:hover,
 			transition: all .3s ease;
 }
 
-#menuBrand {
-	position: fixed;
-	float: left;
-	padding-left: 40px;
-	top: 25px;
-	z-index: 10;
-	display: block;
-	text-align: left;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	font-size: 21px;
-	text-transform: uppercase;
-	color: #DEF1E5;
-	width: 250px;
-	height: 40px;
-	-webkit-transition: all .1s ease-in-out;
-	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		 -o-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
-}
+
 
 
 #menuToggle {
 	position: absolute;
-	padding-right: 100px;
+	padding-right: 160px;
 	top: 20px;
-	left: 0;
-	z-index: 11;
+	left: 40;
+	z-index: 21;
 	display: block;
 	text-align: center;
 	font-size: 24px;
@@ -243,9 +184,11 @@ button:hover,
 			transition: all .1s ease-in-out;
 }
 
-#menuToggle:hover {
-	color: #76C4D4;
-}
+#menu-close{
+    width: 60px;
+	height: 60px;}
+
+
 #menuToggle:hover {
     color: black;
 }
@@ -266,7 +209,7 @@ div.band .columns {
     
 }
 header.band {
-	background-image:url('../../images/Building.jpg');
+	background-image:url('../../images/Building.png');
 	background-size: 100%;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
@@ -276,8 +219,50 @@ header.band {
 	color: white;
 	text-align: center;
 	padding: 30% 0 25% 0;
-	z-index:2;
+	z-index:-2;
+	padding-bottom:60px;
 }
-.large-12 columns one{padding-top:140px;}
+
+h1,  {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+header.band h1 {
+    color:#FEFAF3;
+	font-size: 5.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+	text-shadow: 3px 3px 3px rgba(0,0,0,.6);
+	
+  
+  text-align: center; 
+  font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+
+}
+.Acanvas{padding-top:150px;
+z-index:-2;
+clear:both;}
 .button{background-color:#F70905;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
