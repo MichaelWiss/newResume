@@ -9,6 +9,8 @@
 
 body{background-color:#CFD4D4;
 margin:0;}
+
+
 .Acanvas{margin:40px;}
 
 .border{
@@ -166,17 +168,19 @@ left: 0;}
 #menuToggle {
 	position: absolute;
 	padding-right: 160px;
+	padding-left:0px;
 	top: 20px;
-	left: 40;
+	left: 60;
 	z-index: 21;
 	display: block;
 	text-align: center;
 	font-size: 24px;
-	color: black;
-	width: 40px;
+	color: red;
+	width: 60px;
 	height: 40px;
 	line-height: 40px;
 	cursor: pointer;
+	
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
@@ -209,7 +213,7 @@ div.band .columns {
     
 }
 header.band {
-	background-image:url('../../images/Building.png');
+	background-image:url('../../images/BuildingC.png');
 	background-size: 100%;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
@@ -218,9 +222,10 @@ header.band {
     background-position:center;
 	color: white;
 	text-align: center;
-	padding: 30% 0 25% 0;
+	padding: 30% 0 5% 0;
 	z-index:-2;
-	padding-bottom:60px;
+	
+	margin-bottom: 1em;
 }
 
 h1,  {
@@ -233,7 +238,7 @@ header.band h1 {
     color:#FEFAF3;
 	font-size: 5.5em;
 	line-height: 1em;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	text-shadow: 3px 3px 3px rgba(0,0,0,.6);
 	
   
@@ -243,10 +248,16 @@ header.band h1 {
 	text-align: center;
 
 }
-.Acanvas{padding-top:150px;
-z-index:-2;
+header{height:100%;}
+
+.Acanvas{padding-top:90px;
+z-index:10;
 clear:both;}
-.button{background-color:#F70905;}
+
+.centeredh3{text-align:center;}
+a.button.outline-outward{background-color:#F70905;
+z-index:-20;}
+
 
 
 

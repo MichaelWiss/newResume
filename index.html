@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>MICHAEL WISS | Welcome</title>
     <link rel="stylesheet" href="css/build/global.css"/>
     <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/component.css"/>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -32,11 +33,11 @@
         <div id="menuToggle">&#9776;</div>   
     </nav>
 
-   <header class="band" data-0="transform:scale(1.0);" data-180="transform:scale(1.4);"  id="home">
+   <header class="band" data-0="transform:scale(1.0);" data-180="transform:scale(1.3);"  id="home">
 
     <div class="row">
       <div class="small-12 columns" data-0="opacity: 1; transform:scale(1.1,1.1);" data-180="opacity: 0; transform:scale(2.5,2.5);">
-        <h1 class="wow fadeInDownBig">MICHAEL WISS NYC</h1>
+        <h1 class="wow fadeInUp" data-wow-duration="3s">MICHAEL WISS NYC</h1>
         <a href="http://michaelrwiss.com" class="button outline-outward"  target="_blank">My Portfolio</a>
         
       </div>
@@ -52,11 +53,11 @@
         <h1>Welcome to Foundation</h1>
       </div>
     </div>-->
-    <div class="wow fadeInDown">
-    <div class="wow fadeinDown row ">
-      <div class="large-12 columns one wow fadeinDown">
-      	<div class="wow fadeinDown panel">
-	        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
+    <div class="wow fadeInDown" data-wow-duration="4s">
+    <div class="row ">
+      <div class="large-12 columns one ">
+      	<div class="panel">
+	        <h3 class="centeredh3">Welcome to the resume of Michael Wiss </h3>
 	        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
 	        <p>Once you've exhausted the fun in this document, you should check out:</p>
 	        <div class="row">
@@ -76,12 +77,52 @@
 
     </div>
 
-    <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="row">
       <div class="large-8 medium-8 columns">
         <h5>Here&rsquo;s your basic grid:</h5>
         <!-- Grid Example -->
 
-        <div class="row">
+        <!--<div class="row">
           <div class="large-12 columns">
             <div class="callout panel">
               <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
@@ -196,7 +237,37 @@
         </div>
       </div>
     </div>
-    </div>
+    </div>-->
+
+
+<div class="main">
+        <ul id="og-grid" class="og-grid">
+          <li>
+            <a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+              <img src="images/thumbs/2.jpg" alt="img02"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+              <img src="images/thumbs/3.jpg" alt="img03"/>
+            </a>
+          </li>
+          <li>
+            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+              <img src="images/thumbs/1.jpg" alt="img01"/>
+            </a>
+          </li>
+        
+        </div>
+
+
+
+
 
     </div>
     
@@ -204,6 +275,7 @@
     
     <script src="js/build/global.min.js"></script>
     <script src="js/vendor/wow.min.js"></script>
+    <script src="js/grid.js"></script>
 
     <script type="text/javascript">
       $(document).foundation();
@@ -231,6 +303,12 @@
 <script type="text/javascript">
  new WOW().init();
 </script>
+
+<script>
+      $(function() {
+        Grid.init();
+      });
+    </script>
 
   </body>
 </html>
