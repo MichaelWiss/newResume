@@ -3,12 +3,15 @@
 @import "../foundation.min.css";
 @import "../normalize.css";
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
 
 
 
 
-body{background-color:#CFD4D4;
-margin:0;}
+body{background-color:#9A9CA1;
+margin:0;
+color:#ffffff;
+}
 
 
 .Acanvas{margin:40px;}
@@ -82,7 +85,7 @@ left: 0;}
 .menu a {
     text-transform: uppercase;
 	margin-left: 20px;
-	color: #DEF1E5;
+	color: #ffffff;
 	display: block;
 	font-size: 14px;
 	font-weight: 400;
@@ -90,7 +93,7 @@ left: 0;}
 }
 
 .menu a:hover {
-	color: #76C4D4;
+	color: red;
 }
 
 .menu a:active {
@@ -249,16 +252,30 @@ header.band h1 {
 
 }
 header{height:100%;}
+h2{font-family: 'Sorts Mill Goudy', serif;
+color:#C4C7CC;
+}
+.og-details h3{font-family: 'Sorts Mill Goudy', serif;
+color:#403E3D;}
+strong{font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;}
 
 .Acanvas{padding-top:100px;
 z-index:10;
-clear:both;}
+clear:both;
+font-family: "athelas","Georgia","Times",serif;}
 
-.centeredh3{text-align:center;}
+.panel h3{text-align:center;
+font-family: 'Sorts Mill Goudy', serif;
+color:#403E3D;}
+.panel{text-align: center; 
+font-family:georgia;
+}
+#portfolio h2{text-align: center;}
 a.button.outline-outward{background-color:#F70905;
 z-index:-20;}
 
-.og-grid li a:hover{opacity:0.5;}
+
+
 
 
 
