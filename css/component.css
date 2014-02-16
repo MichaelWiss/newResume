@@ -10,7 +10,7 @@
 	display: inline-block;
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
-	height: 250px;
+	height: 125px;
 }
 
 .og-grid li > a,
@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #ffffff;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #ffffff;
 	top: auto;
 	left: 0;
 	width: 100%;

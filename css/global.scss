@@ -167,7 +167,7 @@ left: 0;}
 
 #menuToggle {
 	position: absolute;
-	padding-right: 160px;
+	padding-right: 90px;
 	padding-left:0px;
 	top: 20px;
 	left: 60;
@@ -222,7 +222,7 @@ header.band {
     background-position:center;
 	color: white;
 	text-align: center;
-	padding: 30% 0 5% 0;
+	padding: 30% 0 25% 0;
 	z-index:-2;
 	
 	margin-bottom: 1em;
@@ -250,13 +250,15 @@ header.band h1 {
 }
 header{height:100%;}
 
-.Acanvas{padding-top:90px;
+.Acanvas{padding-top:100px;
 z-index:10;
 clear:both;}
 
 .centeredh3{text-align:center;}
 a.button.outline-outward{background-color:#F70905;
 z-index:-20;}
+
+.og-grid li a:hover{opacity:0.5;}
 
 
 
