@@ -80,29 +80,43 @@
         <h2>Portfolio</h2><hr>
         <ul id="og-grid" class="og-grid">
           <li>
-            <a href="#" data-largesrc="images/Ldubrovnik.png" data-title="Dubrovnik Contemporary" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot." class="wow fadeInLeft" data-wow-duration="4s">
+            <a href="http://www.dubrovnikcontemporary.com/" data-largesrc="images/Ldubrovnik.png" data-title="Dubrovnik Contemporary" data-description="Static gallery site.  Originally developped as a smooth scrolling parallax, the client opted for a more conventional approach." class="wow fadeInLeft" data-wow-duration="4s">
               <img src="images/thumbs/dubrovnik1.png" alt="img01"/>
             </a>
           </li>
           <li>
-            <a href="#" data-largesrc="images/Lhungerthon.png" data-title="Hungerthon 2012" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu." class="wow fadeInLeft" data-wow-duration="6s">
+            <a href="#" data-largesrc="images/Lhungerthon.png" data-title="Hungerthon 2012" data-description="Retrofitted a fundraising wordpress site to be responsive." class="wow fadeInLeft" data-wow-duration="6s">
               <img src="images/thumbs/hungerthon1.png" alt="img02"/>
             </a>
           </li>
           <li>
-            <a href="#" data-largesrc="images/Limagine.png" data-title="Imagine" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+            <a href="http://whyhunger.org/imagine" data-largesrc="images/Limagine.png" data-title="Imagine" data-description="Created info page for a partnership with Yoko Ono .">
               <img class="wow fadeInRight" data-wow-duration="4s" src="images/thumbs/imagine1.png" alt="img03"/>
             </a>
           </li>
           <li>
-            <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/Llinz.png" data-title="Linz Inc" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+            <a href="http://www.linzinc.com/" data-largesrc="images/Llinz.png" data-title="Linz Inc" data-description="Converted a static site into a functional web store using wordpress as a cms.">
               <img class="wow fadeInRight" data-wow-duration="6s" src="images/thumbs/linz1.png" alt="img01"/>
             </a>
           </li>
         
         </div>
 
+ <div class="row" id="name">
 
+     <div class="small-12 medium-6 large-6 columns">
+            <h2>Michael Wiss</h2>
+            <h3>Frontend Web Developer</h3>
+     </div>
+        
+    <div class="small-12 medium-6 large-6 columns" id="contact">
+      <ul>
+        <li>michael.wiss@gmail.com</li>
+        <li><a href="http://www.michaelrwiss.com">www.michaelrwiss.com</a></li>
+        <li>(917) 627-4004</li>
+      </ul>
+     </div><!--end columns-->
+     <hr>
 
 <div id="about">
 
@@ -172,33 +186,69 @@
 
 
 </div>
-<div class="row">
- <section class="chart wow bounceInUp">
+<div class="row" id="chart">
 
+ <div class="small-8 columns">
+ <section class="chart wow bounceInUp">
     <style>
       canvas{
       }
     </style>
  
- 
+ </section>
     <canvas id="canvas" height="450" width="450"></canvas>
+</div>
+<div class="small-4 columns" id="charts">
+      <ul>
+              <li id="html5">HTML5</li>
+              <li id="css3">CSS3</li>
+              <li id="js">Javascript</li>
+              <li id="jquery">JQuery</li>
+              <li id="cli">Command Line</li>
+              <li id="git">Git</li>
+              <li id= "wp">Wordpress</li>
+              <li id="deployment">Deployment</li>
+              <li id="ROR">Very Basic Ruby on Rails</li>
+      </ul>
+</div>
 
-
- 
-
-
-
-</section>
 
 </div>
     </div>
+
+    <footer class="band">
+
+   <hr>
+       <div id="social">
+       <div class="row">
+
+         <div class="small-5 small-offset-1 columns">
+
+            <p>Copyright &copy; Michael Wiss 2014 | Made with &#9829; in Bk</p>
+
+         </div><!--/ column-->
+
+         <div class="small-5 small-offset-1 columns">
+
+         <p>
+           <a class="social-git" href="https://github.com/MichaelWiss">Github</a> 
+           <a class="social-linkedin" href="http://www.linkedin.com/pub/michael-wiss/3b/55a/7a0">Linkedin</a>
+           <a class="social-portfolio" href="http://michaelrwiss.com/">Portfolio</a>
+        </p>
+      
+      </div><!--/ column-->
+
+    </div><!--/ row-->
+    </div>
+  
+  </footer><!--/ main--> 
     
     <script src="js/vendor/jquery.js"></script>
-   <script src="js/vendor/Chart.min.js"></script>
-   
+    <script src="js/vendor/Chart.min.js"></script>
     <script src="js/build/global.min.js"></script>
     <script src="js/vendor/wow.min.js"></script>
     <script src="js/vendor/grid.js"></script>
+
 
     <script type="text/javascript">
       $(document).foundation();
@@ -247,16 +297,32 @@
           color:"#F7464A"
         },
         {
-          value : 50,
+          value : 30,
           color : "#46BFBD"
         },
         {
-          value : 100,
+          value : 50,
           color : "#FDB45C"
         },
         {
           value : 40,
-          color : "#949FB1"
+          color : "#1C1818"
+        },
+        {
+          value : 20,
+          color : "#F78205"
+        },
+        {
+          value : 20,
+          color : "#713780"
+        },
+        {
+          value : 20,
+          color : "#2590E8"
+        },
+        {
+          value : 40,
+          color : "#3D6945"
         },
         {
           value : 120,
