@@ -15,7 +15,7 @@ color:#ffffff;
 a{color:black;}
 a:hover{color:black;}
 
-.Acanvas{margin:40px;}
+
 
 .border{
 position: fixed;
@@ -217,7 +217,7 @@ div.band .columns {
     
 }
 header.band {
-	background-image:url('../../images/BuildingC.png');
+	background-image:url('../../images/BuildingJ.jpg');
 	background-size: 100%;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
@@ -237,9 +237,15 @@ h1,  {
 	font-weight: 700;
 	text-align: center;
 }
+h2 {
+font-size: 1.6em;
+}
 h3{color:#5B5C5E;}
 h4{color:#3F4042;}
-
+div.columns {
+padding-top: 2em;
+padding-bottom: 2em;
+}
 header.band h1 {
     color:#FEFAF3;
 	font-size: 5.5em;
@@ -262,19 +268,25 @@ color:#373738;
 color:#403E3D;}
 strong{font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;}
 
-.Acanvas{padding-top:100px;
-z-index:10;
-clear:both;
-font-family: "athelas","Georgia","Times",serif;}
+.Acanvas{
+   padding-top:100px;
+   z-index:10;
+   clear:both;
+   font-family:georgia;}
 
-.panel h3{text-align:center;
-font-family: 'Sorts Mill Goudy', serif;
-color:#403E3D;}
-.panel{text-align: center; 
-font-family:georgia;
+
+.panel h3{
+    text-align:center;
+    font-family: 'Sorts Mill Goudy', serif;
+    color:#403E3D;}
+.panel{
+     text-align: center; 
+     font-family:georgia;
 }
-#portfolio h2{text-align: center;}
-a.button.outline-outward{background-color:#F70905;
+#portfolio h2{
+     text-align: center;}
+a.button.outline-outward{
+     background-color:#F70905;
 z-index:-20;}
 
 #name h2{
@@ -290,14 +302,19 @@ z-index:-20;}
 #about p {
   text-indent: 1.5em;
 }
+.one{padding-top: 4em;}
 #contact{margin:0;
 	padding-top:2em;}
 
-#technical ul{list-style:square;}
+#technical ul{
+   list-style:square;}
 #technical li{
 line-height: 24px;}
 
 #chart{padding-bottom:40px;}
+.clear {
+    clear: both;
+}
 
 
 
@@ -314,9 +331,9 @@ line-height: 24px;}
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
-
+    .large-12 columns one{padding-top: 4em;}
 	header.band {
-		background-image:url('../../images/BuildingC.png');
+		background-image:url('../../images/BuildingJ.jpg');
 		background-size: 100%;
 		-webkit-background-size:cover;
 -moz-background-size:cover;
@@ -326,7 +343,7 @@ background-position:center;
 
 	}
 	.outer1{
-	background-image:url('../../images/BuildingC.png');
+	background-image:url('../../images/BuildingJ.jpg');
 	background-size: 100%;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
